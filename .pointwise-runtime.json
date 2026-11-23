@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "-B", "-c", "import chengqiao, chengqiao.cli, chengqiao.model, chengqiao.account_store, chengqiao.process_store, chengqiao.verify, chengqiao.demo"]
+  ],
+  "verify": ["python3", "-B", "-m", "chengqiao.verify"],
+  "demo": ["python3", "-B", "-m", "chengqiao.demo"]
+}
